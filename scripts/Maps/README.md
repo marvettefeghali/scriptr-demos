@@ -9,10 +9,11 @@ Live Mapping
 Using scriptr websockets & pubnub to receive the gps points, and google maps api to add new points to the MAP
 
 
+
+
 Static Mapping
 =============
 Using scriptr rest api to fetch data, and google maps api to display points on map.
-
 
 This code can be reused to display any GPS map data. 
 
@@ -25,12 +26,13 @@ This code can be reused to display any GPS map data.
       }
    ```
 - If data is static, update static/config.js
-    ```javascript
-     http: {
-      baseUrl: "https://YOUR_SCRIPTR_DOMAIN",
-  	  dataScript:"DATA_SCRIPT"
-    }
-    ```
+  
+   ```javascript
+      http: {
+         baseUrl: "https://YOUR_SCRIPTR_DOMAIN",
+  	      dataScript:"DATA_SCRIPT"
+      }
+   ```
     
 check the current config.js for examples.
 
