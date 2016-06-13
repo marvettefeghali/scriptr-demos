@@ -17,12 +17,13 @@ Using scriptr rest api to fetch data, and google maps api to display points on m
 This code can be reused to display any GPS map data. 
 
 - If data is live, update static/config.js:
+
    ```javascript
-     websocket: {
-      url: "wss://api.scriptrapps.io/YOUR_ANONYMOS_TOKEN==",
-      receive_channel: "DATA_RECEIVING_CHANNEL" 
-    }
-    ```
+      websocket: {
+         url: "wss://api.scriptrapps.io/YOUR_ANONYMOS_TOKEN==",
+         receive_channel: "DATA_RECEIVING_CHANNEL" 
+      }
+   ```
 - If data is static, update static/config.js
     ```javascript
      http: {
